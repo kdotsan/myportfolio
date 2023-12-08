@@ -5,21 +5,52 @@ body {
   }
   
   .navbar {
-    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #333;
+    padding: 15px 20px;
   }
   
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+  .logo a {
+    color: #fff;
     text-decoration: none;
+    font-size: 1.5em;
   }
   
-  .navbar a:hover {
-    background-color: #ddd;
-    color: black;
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ddd;
+  }
+  
+  /* Styling for sections */
+  .section {
+    padding: 50px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+  }
+  
+  .section h2 {
+    margin-bottom: 20px;
   }
   
