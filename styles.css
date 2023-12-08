@@ -43,7 +43,6 @@ body {
     color: #ddd;
   }
   
-  /* Styling for sections */
   .section {
     padding: 50px;
     background-color: #f9f9f9;
@@ -53,4 +52,97 @@ body {
   .section h2 {
     margin-bottom: 20px;
   }
+  .project-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
   
+  .project {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .project h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .project p {
+    color: #666;
+  }
+  
+  .project a {
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project a:hover {
+    background-color: #555;
+  }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+ 
+.skills-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+  h2 {
+    text-align: left;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    flex: 0 1 calc(33.33% - 20px);
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: left
+    ;
+  }
+  
+  .skill i {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .skill h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .skill p {
+    color: #666;
+  }
