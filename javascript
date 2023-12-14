@@ -9,3 +9,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
   });
 });
+$(document).ready(function() {
+  $('.search-button').on('click', function() {
+    var searchTerm = $('.search-bar').val();
+   
+    console.log('Searched for: ' + searchTerm);
+   
+    //   }
+    // });
+  });
+});
